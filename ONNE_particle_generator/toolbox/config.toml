@@ -1,0 +1,41 @@
+title = "EXAFS gr input configuration2"
+
+[structure]
+#element=element index
+atom_dict={U=0,F=1,Li=2}
+
+#element=position
+center="U"
+layer1_symbol=['F']
+layer2_symbol=['F','U','Li']
+layer3_symbol=['F','U','Li']
+layer4_symbol=['F','U','Li']
+
+
+
+[dataset]
+frames=100
+conf_num=600
+
+[file]
+scriptpath="/gpfs/projects/FrenkelGroup/kaif/FEFF_cal/EXAFS_gr/gen_1000_MD_mygr_reborn2/Scripts"
+workpath="/gpfs/projects/FrenkelGroup/kaif/FEFF_cal/EXAFS_gr/gen_1000_MD_mygr_reborn2"
+
+[mpi]
+tasks=96
+
+[exp]
+path="merge_UF4_HT_abs.chik" 
+
+#[feff]
+#header=[['Edge','L3'],
+#    ['S02', '1.0'],
+#    ['EXAFS', '20.0'],
+#    ['COREHOLE', 'FSR'],
+#    ['RPATH', '6'],
+#    ['CRITERIA', '0.0', '0.1'],
+#    ['SCF', '4.0', '0', '100', '0.2', '1'],
+#    ['POTENTIALS'],
+#    ['0', '92', 'U'],
+#    ['1', '9', 'F']]
+
