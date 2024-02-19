@@ -4,12 +4,12 @@
 #SBATCH --partition=extended-96core
 #SBATCH --output=array_test.%N_%a.log
 #SBATCH --job-name=EXAFS_1000_UF4
-#SBATCH --mail-user=kaifeng.zheng@stonybrook.edu
+#SBATCH --mail-user=
 #SBATCH --mail-type=ALL
 
 module load slurm
 module load  python/3.9.7
-module use /gpfs/projects/FrenkelGroup/shimogawa/modulefiles/FEFF
+module use modulefiles/FEFF
 module load 10.0.0
 
 #module load intel/oneAPI/2021.4
