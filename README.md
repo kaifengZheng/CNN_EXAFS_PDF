@@ -61,7 +61,7 @@ CNN_EXAFS_PDF
 
 ```
 Contributors:
-- multi_tasks_FEFF:
+- multi_tasks_FEFF(also see [project](https://github.com/kaifengZheng/FEFF_package.git)):
   - [@Kaifeng Zheng](https://github.com/kaifengZheng)
   - [@Mehmet Toposakal](https://github.com/MehmetTopsakal)
 - ONNE_particle_generator:
