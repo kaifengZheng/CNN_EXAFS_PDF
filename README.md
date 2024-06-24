@@ -70,4 +70,4 @@ Contributors:
 - neural network construction:
   - [@Kaifeng Zheng](https://github.com/kaifengZheng)
     - combinatorial method
-      -[@Nicholas Marcella](https://github.com/nmarcella)
+      - [@Nicholas Marcella](https://github.com/nmarcella)
