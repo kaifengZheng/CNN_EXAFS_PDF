@@ -14,27 +14,36 @@ CNN_EXAFS_PDF
    | gr.csv
    | gr.png
    | config.toml
-   | config_wr.toml
-   | output.dat
-   | output_ave_test_kx.csv
    | rmesh.txt
    | run.slurm
    | run_FEFF.py
    | template.inp
    | trainingset_gen_mpi_mygr.py
    |__Script
-   |__toolbox
 |__config
-   |config_1116023.yaml
+   | config_1116023.yaml
 |__cbam/rebinE0/lightning_logs
    |__version_*
       |__checkpoints
+|__multi_tasks_FFFF
+   | config_wr.toml
+   | output_ave_test_kx.csv
+   | run.slurm
+   | run_FEFF.py
+   | template.inp
+   |__toolbox
+      | average.py
+      | average_gr.py
+      | check.py
+      | run_tool.sh
+      | srun.sh
 |__dataset_partial
-   |gr_*.csv
-   |gr.png
-   |kmesh.txt
-   |rmesh.txt
-   |output_ave_test_kx.csv
-   |output_rebin.csv
+   | gr_*.csv
+   | gr.png
+   | kmesh.txt
+   | rmesh.txt
+   | output_ave_test_kx.csv
+   | output_rebin.csv
 
 ```
+
