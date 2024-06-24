@@ -4,7 +4,7 @@ This repo contains all codes related to the work entitled "Decoding the Pair Dis
 ```markdown
 CNN_EXAFS_PDF
 | CNN sweep_WB.ipynb
-      script to tune parameters of neural network using W&B
+      script for tuning hyperparameters of neural network using W&B
 | NN_300_partial_full_multi_final.ipynb
       main notebook to execute neural network to predict g(r) and validate the results using experimental data
 |__MD_data
