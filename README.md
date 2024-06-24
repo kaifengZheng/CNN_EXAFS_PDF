@@ -60,5 +60,14 @@ CNN_EXAFS_PDF
    | output_rebin.csv
 
 ```
-
-
+Contributors:
+- multi_tasks_FEFF:
+  - [@Kaifeng Zheng](https://github.com/kaifengZheng)
+  - [@Mehmet Toposakal](https://github.com/MehmetTopsakal)
+- ONNE_particle_generator:
+  - [@Kaifeng Zheng](https://github.com/kaifengZheng)
+  - [@Nicholas Marcella](https://github.com/nmarcella)
+- neural network construction:
+  - [@Kaifeng Zheng](https://github.com/kaifengZheng)
+    - combinatorial method
+      -[@Nicholas Marcella](https://github.com/nmarcella)
