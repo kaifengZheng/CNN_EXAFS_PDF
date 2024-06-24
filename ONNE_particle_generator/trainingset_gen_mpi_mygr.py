@@ -8,7 +8,7 @@ config=toml.load('config.toml')
 sys.path.append(os.path.abspath(config['file']['scriptpath']))
 
 
-from EXAFS_sim import *
+from Scripts.EXAFS_sim import *
 import scipy.stats as stats
 import numpy as np
 from scipy.optimize import dual_annealing
