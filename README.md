@@ -21,7 +21,7 @@ CNN_EXAFS_PDF
         configuration file for ONNE particle data construction
    | rmesh.txt
    | run.slurm
-       script to run on supercluster
+       script to run the simulation/particle generator on supercluster
    | trainingset_gen_mpi_mygr.py
        main script to run ONNE particle construction
    |__Scripts
@@ -44,9 +44,9 @@ CNN_EXAFS_PDF
    | template.inp
    |__toolbox
       | average.py
-         calculate average EXAFS for each case
+         calculate average EXAFS for all gr configurations
       | average_gr.py
-         calculate averaged gr for each case
+         calculate averaged gr for all gr configurations
       | check.py
          Check if the calculations are complete
       | run_tool.sh
