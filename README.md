@@ -6,12 +6,12 @@ CNN_EXAFS_PDF
 | CNN sweep_WB.ipynb
       script for tuning hyperparameters of neural network using W&B
 | NN_300_partial_full_multi_final.ipynb
-      main notebook to execute neural network to predict g(r) and validate the results using experimental data
+      Main notebook to execute a neural network for predicting g(r) and validating the results using experimental data
 |__MD_data
    | gr_output*.csv
-        PDFs from MD frames
+        PDFs calculated from MD structures
    | output_ave_test_kx_MD.csv
-        EXAFS of MD frames
+        FEFF-EXAFS calculated from MD structures 
    | r_*.txt
         rmesh
 |__ONNE_particle_generator
@@ -25,9 +25,10 @@ CNN_EXAFS_PDF
    | trainingset_gen_mpi_mygr.py
        main script to run ONNE particle construction
    |__Scripts
-       contains util scripts for generating particles and calculate EXAFS
+       Contains utility scripts for generating particles and calculating EXAFS
 |__config
    | config_1116023.yaml
+     trained parameters for the neural networks.
 |__cbam/rebinE0/lightning_logs
       checkpoints of neural network model
    |__version_*
@@ -45,9 +46,9 @@ CNN_EXAFS_PDF
       | average.py
          calculate average EXAFS for each case
       | average_gr.py
-         calculate average gr for each case
+         calculate averaged gr for each case
       | check.py
-         check if the calculations are completed
+         Check if the calculations are complete
       | run_tool.sh
       | srun.sh
 |__dataset_partial
