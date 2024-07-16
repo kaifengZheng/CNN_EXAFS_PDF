@@ -4,14 +4,14 @@ This repo contains all codes related to the work entitled "Decoding the Pair Dis
 ```markdown
 CNN_EXAFS_PDF
 | CNN sweep_WB.ipynb
-      script for tuning hyperparameters of neural network using W&B
+      script for tuning hyperparameters of our neural network using W&B
 | NN_300_partial_full_multi_final.ipynb
       Main notebook to execute a neural network for predicting g(r) and validating the results using experimental data
 |__MD_data
    | gr_output*.csv
         PDFs calculated from MD structures
    | output_ave_test_kx_MD.csv
-        FEFF-EXAFS calculated from MD structures 
+        FEFF-EXAFS calculated using MD structures 
    | r_*.txt
         rmesh
 |__ONNE_particle_generator
@@ -36,7 +36,7 @@ CNN_EXAFS_PDF
 |__multi_tasks_FFFF
      FEFF calculation using multi-processing
    | config_wr.toml
-       configuration file for writing FEFF inputs from xyz files and run FEFF calculations
+       configuration file for writing FEFF input files from xyz files and running FEFF calculations
    | output_ave_test_kx.csv
    | run.slurm
    | run_FEFF.py
@@ -52,7 +52,7 @@ CNN_EXAFS_PDF
       | run_tool.sh
       | srun.sh
 |__dataset_partial
-   contains gr/EXAFS data for ONNE training purpose
+   gr/EXAFS training data
    | gr_*.csv
    | gr.png
    | kmesh.txt
