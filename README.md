@@ -65,7 +65,7 @@ Contributors:
 - multi_tasks_FEFF(also see [project](https://github.com/kaifengZheng/FEFF_package.git)):
   - [@Kaifeng Zheng](https://github.com/kaifengZheng)
   - [@Mehmet Toposakal](https://github.com/MehmetTopsakal)
-- ONNE_particle_generator:
+- ONNE_particle_generator(also see the original repo: credits to [@Nicholas Marcella Xron repo](https://github.com/nmarcella/Xron)):
   - [@Kaifeng Zheng](https://github.com/kaifengZheng)
   - [@Nicholas Marcella](https://github.com/nmarcella)
 - neural network construction:
