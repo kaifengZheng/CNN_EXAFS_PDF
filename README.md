@@ -67,7 +67,6 @@ Contributors:
   - [@Mehmet Toposakal](https://github.com/MehmetTopsakal)
 - ONNE_particle_generator(also see the original repo: credits to [@Nicholas Marcella Xron repo](https://github.com/nmarcella/Xron)):
   - [@Kaifeng Zheng](https://github.com/kaifengZheng)
-  - [@Nicholas Marcella](https://github.com/nmarcella)
 - neural network construction:
   - [@Kaifeng Zheng](https://github.com/kaifengZheng)
     - combinatorial method
